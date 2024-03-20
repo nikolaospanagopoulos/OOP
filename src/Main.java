@@ -55,4 +55,15 @@ public class Main {
         account2.deposit(1000);
         System.out.println(account2.getBalance());
     }
+
+    //Exercise
+    //create a Person class (name, surname, age, job)
+    //1 full constructor (all properties)
+    //2 constructor (name, surname)
+    //3 empty constructor
+    //getters setters for all properties
+    //static property personCounter = 0 that counts created person objects
+    //static method getPersonCount that return the number of created person objects
+    //create two methods sayHello -> prints (personsName+ " hello"), sayInfo -> print("hello my name is this.name + this.surname, my age is this.age)
+    //
 }
